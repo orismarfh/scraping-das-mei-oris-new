@@ -5,3 +5,26 @@ node_modules/
 .local.env
 .pdf
 bin/*.pdf
+.cookies.json
+
+# macOS
+.DS_Store
+*/.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+.cache/
+tmp/
+dist/
+
+# Logs
+logs/
+*_scraping.log
+*.log
+
+# Perfis e dados locais do Chrome
+chrome-profile/
+
+# Backups
+*.bak

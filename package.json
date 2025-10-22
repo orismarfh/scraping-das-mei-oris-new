@@ -8,7 +8,7 @@
     "node": ">=14.16"
   },
   "scripts": {
-    "start": "node ./bin/index.js"
+     "start": "mkdir -p logs && node ./bin/index.js 2>&1 | tee logs/$(date +'%Y-%m-%d_%H-%M-%S')_scraping.log"
   },
   "keywords": [
     "puppeteer",
